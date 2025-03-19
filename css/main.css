@@ -1,0 +1,155 @@
+.hidden {
+  display: none;
+}
+
+/* General Style */
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* main header */
+
+header {
+  background-color: black;
+  /* padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        padding-right: 0px; */
+  padding: 10px 0 10px 0;
+  /* trbl */
+  padding: 10px 0;
+  /* trbl */
+}
+
+#main-logo {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Main Characters */
+
+#character-nav {
+  padding-top: 90px;
+  padding-bottom: 9%;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#characters {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+#characters li {
+  display: inline;
+  margin: 10px;
+}
+
+#characters li img {
+  padding: 10px;
+  border: solid 1px #fff;
+  background-color: #000;
+  box-shadow: 0px 0px 10px 0px rgba(208, 250, 255, 0.9);
+  transition: all 0.3s ease-in-out;
+}
+
+#characters li img:hover {
+  filter: sepia(40%);
+  /* border-radius: 50% 0 50% 0; */
+  border-radius: 50%;
+}
+
+#characters li a {
+  text-decoration: none;
+}
+
+/* Instruction */
+
+#instruction {
+  padding: 20px;
+}
+
+#instruction h3 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#instruction p {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+/* footer */
+
+#main-footer {
+  color: #fff;
+  text-align: center;
+  height: 80px;
+  background-color: rgb(20, 44, 79);
+  padding: 20px 0 20px 0;
+}
+
+/* LightBox */
+
+.lightbox {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 55vh;
+  background-position: 40px bottom;
+  display: none;
+}
+
+.lightbox:target {
+  display: block;
+}
+
+#lightbox1 {
+  background-image: url("../images/Langley.png");
+}
+
+#lightbox2 {
+  background-image: url("../images/Cabernet.png");
+}
+
+#lightbox3 {
+  background-image: url("../images/Eirene.webp");
+}
+
+#lightbox4 {
+  background-image: url("../images/Oak_Casket.webp");
+}
+.lightbox-close {
+  margin-left: 90%;
+  color: #a90a0a;
+  font-size: 45px;
+  text-decoration: none;
+}
+
+.lightbox article {
+  margin-left: 40%;
+  margin-top: 50px;
+  width: 600px;
+}
+
+.lb-heading {
+  font-size: 32px;
+}
+
+.lb-text {
+  line-height: 24px;
+}
