@@ -1,4 +1,4 @@
-# LIGHT BOX- CHOOSE A WIFE
+# LIGHT BOX- CHOOSE A BOSS
  This is a repo for my light box assignemnt
 
 ## Subject
